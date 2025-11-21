@@ -420,8 +420,9 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* توسيط محتوى الفوتر (لأنه يوجد عنصرين فقط الآن) */
     align-items: center;
+    gap: 30px; /* المسافة بين النص والأيقونات */
 }
 
 .social-links a {
@@ -431,7 +432,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: var(--secondary-color);
+    color: #3498DB; /* لون الأزرق */
 }
 
 /* --- 11. زر WhatsApp العائم --- */
@@ -467,7 +468,7 @@ footer {
     }
 
     .hero-image {
-        order: -1; /* لجعل الصورة تظهر في الأعلى */
+        order: -1; 
         margin-bottom: 30px;
     }
 
